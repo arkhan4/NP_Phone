@@ -1,0 +1,77 @@
+.phone-open {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 291px;
+    height: 564px;
+    min-height: 100%;
+    min-width: 100%;
+  }
+    
+  .phone-minimized{
+    position: absolute;
+    bottom: -400px;
+    right: 5px;
+    width: 291px;
+    height: 564px;
+    transition: transform .5s ease-in-out;
+  }
+  
+  .phone-minimized:hover{
+    position: absolute;
+    bottom: -400px;
+    right: 5px;
+    width: 291px;
+    height: 564px;
+    transition: transform .5s ease-in-out;
+    transform: translate3d(0px, -400px, 0px);
+  }
+  
+  .phone-minimized:focus{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 291px;
+    height: 564px;
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+  .game {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 425px;
+    right: 190px;
+  }  
+  
+  .game-minimized{
+    position: absolute;
+    bottom: -400px;
+    right: 5px;
+    width: 291px;
+    height: 564px;
+    transition: transform .5s ease-in-out;
+  }
+
+  /* Make the image responsive */
+  .game img {
+    position: absolute;
+    width: 291px;
+    height: 564px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .board-row {
+    clear: both;
+    content: "";
+    display: table;
+    position: relative;
+    left: 25px;
+    top: 50px;
+  }
