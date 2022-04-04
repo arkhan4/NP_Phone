@@ -4,7 +4,7 @@ import Phone from './Phone';
 
 function Page() {
   return (
-    <Phone/>
+    <Phone />
   );
 } 
 

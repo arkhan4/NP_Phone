@@ -2,55 +2,35 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    bottom: 425px;
-    right: 190px;
-  }    
-  
-  .game-test {
+    bottom: 210px;
+    right: 60px;
+  } 
+
+  .game img {
     position: absolute;
-    display: flex;
-    flex-direction: row;
-    bottom: 425px;
-    right: 190px;
-  }  
+    width: 291px;
+    height: 564px;
+  }   
 
   .game-minimized{
     position: absolute;
     display: flex;
     flex-direction: row;
-    bottom: 0px;
-    right: 190px;
+    bottom: -225px;
+    right: 60px;
     transition: transform .5s ease-in-out;
   }  
   
   .game-minimized:hover{
     position: absolute;
-    bottom: -400px;
-    right: 5px;
-    width: 291px;
-    height: 564px;
     transition: transform .5s ease-in-out;
-    transform: translate3d(0px, -400px, 0px);
-  }
-
-  /* Make the image responsive */
-  .game img {
-    position: absolute;
-    width: 291px;
-    height: 564px;
+    transform: translate3d(0px, -430px, 0px);
   }
   
-  /* Make the image responsive */
   .game-minimized img {
     position: absolute;
     width: 291px;
     height: 564px;
-  }
-  
-  .board-row:after {
-    clear: both;
-    content: "";
-    display: table;
   }
   
   .board-row {
