@@ -10,7 +10,7 @@ class Phone extends React.Component {
 
   render() {
     return (
-      <div className="game">
+      <div className="game-minimized">
         <img src={phoneimg} alt='Phone2' className="phone" />
         <div className="game-board">
           <div className="board-row">
